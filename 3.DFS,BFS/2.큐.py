@@ -12,6 +12,7 @@ queue.popleft()
 queue.append(1)
 queue.append(4)
 queue.popleft()
+queue.pop()
 
 print(queue) # 먼저 들어온 순서대로 출력
 queue.reverse() # 다음 출력을 위해 역순으로 바꾸기
