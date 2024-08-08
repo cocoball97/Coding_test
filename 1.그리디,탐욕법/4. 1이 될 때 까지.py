@@ -1,6 +1,7 @@
 n, k = map(int, input().split())
 result = 0
 
+# ex) 25 / 4
 while True:
     # (N == K로 나누어 떨어지는 수)가 될 때까지 1씩 빼기
     target = (n//k) * k
@@ -18,18 +19,19 @@ print(result)
 
 
 # 개인풀이
+n, k = map(int, input().split())
 result = 0
-# N이 K 이상이라면 계속 나누기
-while n >= k:
-    if n%k == 0:
-        # 결과값 int 반환
-        n //= k
+
+while True:
+    if n % k == 0:
+        n = n/k
         result += 1
         if n == 1:
             break
+
     else:
-        n-1
-        result +=1
+        n -= 1
+        result += 1
         if n == 1:
             break
 
