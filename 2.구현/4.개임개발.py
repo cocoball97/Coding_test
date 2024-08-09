@@ -26,7 +26,7 @@ def turn_left():
         direction = 3
 
 # 시뮬레이션 시작
-count = 1    # 첫
+count = 1    
 trun_time = 0
 while True:
     # 왼쪽으로 회전
