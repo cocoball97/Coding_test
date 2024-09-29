@@ -9,3 +9,6 @@ for coin in coin_types:
 	n %= coin
     
 print(count)
+
+
+# 나였으면 if 문으로 하나하나 조건문을 걸었을텐데, 리스트로 한번에 가능하네

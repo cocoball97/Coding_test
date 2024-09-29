@@ -10,3 +10,5 @@ for i in range(n):
     
 print(result)
     
+
+# 비교 시, if 문 없이 min max 함수로 바로 비교 가능

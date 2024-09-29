@@ -9,8 +9,8 @@ first = data[n-1] # 가장 큰 수
 second = data[n-2] # 두번째로 큰 수
 
 # 가장 큰 수가 더해지는 횟수 계산    int(A / B) = A //B : 몫 구하기
-count = int(m / (k+1)) * k
-count += m % (k+1)
+count = int(m / (k+1)) * k   # 큰 수가 k번 더해지고 작은 수 더해지는 패턴의 길이 : k+1 
+count += m % (k+1)           # 패턴이 수행되고 남은 떨이
 
 result = 0
 result += (count) * first # 가장 큰 수 더하기
@@ -46,3 +46,7 @@ print(result)
 
 # print(result)
     
+
+
+# 입력 받은 값을 정렬하여 가장 큰 값과 두번째 값만 사용하면 된다!!!!!!!
+# int(A / B) = A //B : 몫 구하기
