@@ -1,6 +1,7 @@
 array = [5, 7, 9, 0, 3, 1, 6, 2, 4, 8]
 
 def quick_sort(array):
+    # 재귀함수는 종료 조건 먼저 필요
     # 리스트가 하나 이하의 원소만을 담고 있다면 종료
     if len(array) <= 1:
         return array

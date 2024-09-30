@@ -1,7 +1,7 @@
 # N 입력 받기
 n = int(input())
 
-# N명의 학생 정보를 입력 받아 리스트에 저장
+# N명의 학생 정보를 입력 받아 리스트에 저장 (append 활용)
 array = []
 for i in range(n):
     input_data = input().split()
