@@ -1,5 +1,6 @@
 input_data = input()
 row = int(input_data[1])
+# ord : 문자 아스키 코드로 변환하는 함수
 column = int(ord(input_data[0])) - int(ord('a')) + 1
 
 # 나이트가 이동할 수 있는 8가지 방향 정의
