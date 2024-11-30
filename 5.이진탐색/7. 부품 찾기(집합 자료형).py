@@ -1,4 +1,3 @@
-# N(가게의 부품 개수) 입력
 n = int(input())
 # 가게에 있는 전체 부품 번호를 입력 받아서 집합(Set) 자료형에 기록
 array = set(map(int, input().split()))
@@ -10,7 +9,7 @@ x = list(map(int, input().split()))
 
 # 손님이 확인 요청한 부품 번호를 하나씩 확인
 for i in x:
-    # 해당 부품이 존재하는지 확인
+    # 해당 부품이 존재하는지 확인 (set은 존재 유무만 판단. 리스트는 순차탐색)
     if i in array:
         print('yes', end=' ')
     else:

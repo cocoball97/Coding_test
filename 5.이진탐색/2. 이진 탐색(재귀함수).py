@@ -1,3 +1,5 @@
+# 데이터가 정렬되어 있어어야 사용 가능
+
 # 이진 탐색 소스코드 구현 (재귀 함수)
 def binary_search(array, target, start, end):
     if start > end:
